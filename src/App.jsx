@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from './components/ButtonComponent';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+      <label htmlFor=""></label>
+      <input id="test" type="text" /> 
+      <ButtonComponent />
       </header>
     </div>
   );
